@@ -1,0 +1,135 @@
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/App.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+:root {
+  --primaryColor: #FF4778;
+}
+
+.otaku-home--fa657 {
+  min-width: 1000px;
+  height: 100%;
+}
+.otaku-home--fa657 .otaku-header--a1bce {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: white;
+  color: black;
+  padding: 0 20px;
+  box-shadow: 0 2px 8px 0 rgba(0, 35, 144, 0.1);
+  position: relative;
+  z-index: 2000;
+}
+.otaku-home--fa657 .otaku-header--a1bce .otaku-title--dde6e {
+  font-size: 20px;
+}
+.otaku-home--fa657 .otaku-header--a1bce .github-star--f134a {
+  font-size: 20px;
+  color: #ffb800;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.otaku-home--fa657 .otaku-header--a1bce a {
+  color: black;
+}
+.otaku-home--fa657 .otaku-header--a1bce a:hover {
+  color: var(--primaryColor);
+}
+.otaku-home--fa657 .otaku-header--a1bce a:active {
+  color: var(--primaryColor);
+}
+.otaku-home--fa657 .content--b2233 {
+  display: grid;
+  grid-template-areas: "aside main";
+  grid-template-columns: 200px 1fr;
+  height: calc(100% - 60px);
+}
+.otaku-home--fa657 .sidebar--c2409 {
+  grid-area: aside;
+  padding: 10px 0 0 0px;
+  box-sizing: border-box;
+  overflow-x: auto;
+  height: calc(100vh - 60px);
+}
+.otaku-home--fa657 .sidebar--c2409 h3 {
+  margin: 10px 15px;
+}
+.otaku-home--fa657 .sidebar--c2409 .otaku-menu--ead06 .otaku-menu-item--c12ce {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+.otaku-home--fa657 .sidebar--c2409 .otaku-menu--ead06 .otaku-menu-item--c12ce:active {
+  color: black;
+}
+.otaku-home--fa657 .sidebar--c2409 .otaku-menu--ead06 .active--a9cea {
+  color: var(--primaryColor);
+}
+
+.main {
+  grid-area: main;
+  background: #f7f8fa;
+  position: relative;
+  box-sizing: border-box;
+  height: calc(100vh - 60px);
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 20px;
+  padding: 20px;
+}
+.otaku-anchor {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  border-radius: 4px;
+}
+.markdown-body li + li {
+  margin-top: 0 !important;
+}
+.markdown-body table:not([class^=".otaku-"]) {
+  display: table;
+}
+.markdown-body .table-of-contents {
+  position: fixed;
+  right: 40px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px 0 rgba(0, 35, 114, 0.1);
+}
+.markdown-body .table-of-contents a {
+  color: #3064FF;
+  font-size: 14px;
+}
+.markdown-body pre:not([class^=".otaku-"]) {
+  padding: 0;
+  font-size: 14px;
+}
+.markdown-body ol:not([class^=".otaku-"]), .markdown-body ul:not([class^=".otaku-"]) {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.markdown-body ol:not([class^=".otaku-"]) li, .markdown-body ul:not([class^=".otaku-"]) li {
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+
+/*# sourceMappingURL=src_pages_home_tsx_1b36944499f34d778396.css.map*/

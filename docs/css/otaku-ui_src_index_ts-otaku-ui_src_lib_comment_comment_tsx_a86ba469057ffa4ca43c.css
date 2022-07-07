@@ -1,0 +1,2310 @@
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/style/reset.scss ***!
+  \********************************************************************************************************************************************************************************************************************/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+  color: black;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: #faffbd;
+  /* #FAFFBD; */
+  background-image: none;
+  color: black;
+}
+
+input:-internal-autofill-selected {
+  background-color: transparent !important;
+  color: -internal-light-dark-color(transparent, transparent) !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  text-decoration: none;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+input[type=text] {
+  outline: none;
+}
+/*!**************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js!../otaku-ui/src/fonts/iconfont.css ***!
+  \**************************************************************************************************************************************/
+@font-face {
+  font-family: "iconfont"; /* Project id 1132676 */
+  src: url(../dc425fa59e62528c03c2.woff2?t=1656775065762) format('woff2'),
+       url(../7cf8a247d35106520d6e.woff?t=1656775065762) format('woff'),
+       url(../c2df3a16ce04a121a453.ttf?t=1656775065762) format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.otaku-icon-like-fill:before {
+  content: "\e869";
+}
+
+.otaku-icon-unlike-fill:before {
+  content: "\e86b";
+}
+
+.otaku-icon-moon:before {
+  content: "\e67c";
+}
+
+.otaku-icon-sun:before {
+  content: "\e694";
+}
+
+.otaku-icon-edit:before {
+  content: "\e67a";
+}
+
+.otaku-icon-success:before {
+  content: "\e67f";
+}
+
+.otaku-icon-delete-filling:before {
+  content: "\e68f";
+}
+
+.otaku-icon-success-filling:before {
+  content: "\e690";
+}
+
+.otaku-icon-arrow-up-circle:before {
+  content: "\e665";
+}
+
+.otaku-icon-arrow-down:before {
+  content: "\e666";
+}
+
+.otaku-icon-arrow-right:before {
+  content: "\e667";
+}
+
+.otaku-icon-arrow-double-left:before {
+  content: "\e669";
+}
+
+.otaku-icon-arrow-double-right:before {
+  content: "\e66a";
+}
+
+.otaku-icon-code1:before {
+  content: "\e66b";
+}
+
+.otaku-icon-calendar:before {
+  content: "\e66c";
+}
+
+.otaku-icon-comment:before {
+  content: "\e66d";
+}
+
+.otaku-icon-download1:before {
+  content: "\e66e";
+}
+
+.otaku-icon-export:before {
+  content: "\e66f";
+}
+
+.otaku-icon-error:before {
+  content: "\e670";
+}
+
+.otaku-icon-file-delete:before {
+  content: "\e671";
+}
+
+.otaku-icon-file-add:before {
+  content: "\e672";
+}
+
+.otaku-icon-file:before {
+  content: "\e673";
+}
+
+.otaku-icon-folder-close:before {
+  content: "\e674";
+}
+
+.otaku-icon-filter:before {
+  content: "\e675";
+}
+
+.otaku-icon-home:before {
+  content: "\e676";
+}
+
+.otaku-icon-history:before {
+  content: "\e677";
+}
+
+.otaku-icon-file-open:before {
+  content: "\e678";
+}
+
+.otaku-icon-loading1:before {
+  content: "\e679";
+}
+
+.otaku-icon-upload:before {
+  content: "\e682";
+}
+
+.otaku-icon-add-bold:before {
+  content: "\e685";
+}
+
+.otaku-icon-arrow-left-bold:before {
+  content: "\e686";
+}
+
+.otaku-icon-arrow-up-bold:before {
+  content: "\e687";
+}
+
+.otaku-icon-close-bold:before {
+  content: "\e688";
+}
+
+.otaku-icon-arrow-down-bold:before {
+  content: "\e689";
+}
+
+.otaku-icon-minus-bold:before {
+  content: "\e68a";
+}
+
+.otaku-icon-arrow-right-bold:before {
+  content: "\e68b";
+}
+
+.otaku-icon-select-bold:before {
+  content: "\e68c";
+}
+
+.otaku-icon-warning:before {
+  content: "\e68d";
+}
+
+.otaku-icon-info:before {
+  content: "\e68e";
+}
+
+.otaku-icon-copy:before {
+  content: "\e744";
+}
+
+.otaku-icon-code:before {
+  content: "\e60e";
+}
+
+.otaku-icon-loading:before {
+  content: "\e668";
+}
+
+.otaku-icon-down:before {
+  content: "\e610";
+}
+
+.otaku-icon-up:before {
+  content: "\e611";
+}
+
+.otaku-icon-doubleleft:before {
+  content: "\e7ed";
+}
+
+.otaku-icon-doubleright:before {
+  content: "\e7f0";
+}
+
+.otaku-icon-more-fill:before {
+  content: "\e819";
+}
+
+.otaku-icon-more-line:before {
+  content: "\e81a";
+}
+
+.otaku-icon-close-circle-line:before {
+  content: "\e80d";
+}
+
+.otaku-icon-close-circle-fill:before {
+  content: "\e80e";
+}
+
+.otaku-icon-star-half:before {
+  content: "\e612";
+}
+
+.otaku-icon-checkbox-indeterminate-fill:before {
+  content: "\e80a";
+}
+
+.otaku-icon-checkbox-fill:before {
+  content: "\e80b";
+}
+
+.otaku-icon-checkbox:before {
+  content: "\e80c";
+}
+
+.otaku-icon-external-link-line:before {
+  content: "\e80f";
+}
+
+.otaku-icon-eye-line:before {
+  content: "\e810";
+}
+
+.otaku-icon-eye-off-line:before {
+  content: "\e811";
+}
+
+.otaku-icon-search-2-line:before {
+  content: "\e81b";
+}
+
+.otaku-icon-search-line:before {
+  content: "\e81c";
+}
+
+.otaku-icon-thumb-down-fill:before {
+  content: "\e823";
+}
+
+.otaku-icon-thumb-up-fill:before {
+  content: "\e826";
+}
+
+.otaku-icon-logout:before {
+  content: "\e742";
+}
+
+.otaku-icon-zhuanfa:before {
+  content: "\e604";
+}
+
+.otaku-icon-lishijilu:before {
+  content: "\e605";
+}
+
+.otaku-icon-dibiao:before {
+  content: "\e60a";
+}
+
+.otaku-icon-download:before {
+  content: "\e618";
+}
+
+.otaku-icon-shangchuan:before {
+  content: "\e61b";
+}
+
+.otaku-icon-shijian:before {
+  content: "\e635";
+}
+
+.otaku-icon-zuanshihuiyuan:before {
+  content: "\e63a";
+}
+
+.otaku-icon-left1:before {
+  content: "\e617";
+}
+
+.otaku-icon-right1:before {
+  content: "\e638";
+}
+
+.otaku-icon-biaoqian:before {
+  content: "\e619";
+}
+
+.otaku-icon-yaowan:before {
+  content: "\e61a";
+}
+
+.otaku-icon-delete:before {
+  content: "\e61d";
+}
+
+.otaku-icon-user:before {
+  content: "\e7ae";
+}
+
+.otaku-icon-mobile:before {
+  content: "\e7b2";
+}
+
+.otaku-icon-like:before {
+  content: "\e7c8";
+}
+
+.otaku-icon-unlike:before {
+  content: "\e7c9";
+}
+
+.otaku-icon-api:before {
+  content: "\e7e1";
+}
+
+.otaku-icon-share:before {
+  content: "\e7e7";
+}
+
+.otaku-icon-left:before {
+  content: "\e7ef";
+}
+
+.otaku-icon-bug-fill:before {
+  content: "\e8e8";
+}
+
+.otaku-icon-bug:before {
+  content: "\e8e9";
+}
+
+.otaku-icon-caret-right:before {
+  content: "\e8ec";
+}
+
+.otaku-icon-caret-left:before {
+  content: "\e8ed";
+}
+
+.otaku-icon-step-backward:before {
+  content: "\e8ef";
+}
+
+.otaku-icon-step-forward:before {
+  content: "\e8f0";
+}
+
+.otaku-icon-heart:before {
+  content: "\e7df";
+}
+
+.otaku-icon-star:before {
+  content: "\e7e0";
+}
+
+.otaku-icon-verticalright:before {
+  content: "\e7ea";
+}
+
+.otaku-icon-verticalleft:before {
+  content: "\e7eb";
+}
+
+.otaku-icon-right:before {
+  content: "\e7ec";
+}
+
+.otaku-icon-fullscreen-exit:before {
+  content: "\e7ee";
+}
+
+.otaku-icon-heart-fill:before {
+  content: "\e849";
+}
+
+.otaku-icon-star-fill:before {
+  content: "\e86a";
+}
+
+
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/avatar/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+.otaku-avatar {
+  background: #eee;
+  border-radius: 50%;
+}
+.otaku-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/button/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-button {
+  border: none;
+  background: white;
+  border-radius: var(--radius);
+  box-sizing: border-box;
+  padding: 0;
+  letter-spacing: 2px;
+}
+.otaku-button:hover {
+  cursor: pointer;
+}
+.otaku-button:disabled {
+  cursor: not-allowed;
+}
+.otaku-button .otaku-button-icon {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.otaku-button-loading:disabled {
+  cursor: pointer;
+}
+.otaku-button-loading .otaku-icon-loading {
+  font-size: 12px;
+  display: inline-block;
+  animation: loading 1.5s linear 0s infinite forwards;
+}
+
+@keyframes loading {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.otaku-button-size-small {
+  padding: 4px 8px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.otaku-button-size-middle {
+  padding: 4px 12px;
+  height: 32px;
+  font-size: 14px;
+}
+
+.otaku-button-size-large {
+  padding: 8px 16px;
+  font-size: 16px;
+  height: 40px;
+}
+
+.otaku-button-shape-round {
+  border-radius: 20px;
+}
+
+.otaku-button-shape-circle {
+  border-radius: 50%;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.otaku-button-text {
+  color: #FF4778;
+}
+.otaku-button-text:hover {
+  color: #ff6c93;
+}
+.otaku-button-text:active {
+  color: #cc3960;
+}
+.otaku-button-text:disabled {
+  color: #ff9fb9;
+}
+
+.otaku-button-link {
+  color: #FF4778;
+}
+
+.otaku-button-default {
+  background: white;
+  border: 1px solid #D8D8D8;
+  color: #595959;
+}
+.otaku-button-default:hover {
+  color: #ff6c93;
+  border-color: #ff6c93;
+}
+.otaku-button-default:active {
+  color: #e6406c;
+  border-color: #e6406c;
+}
+.otaku-button-default:disabled {
+  color: #d9d9d9;
+  border-color: #e5e5e5;
+  background-color: #f5f5f5;
+}
+
+.otaku-button-default-ghost {
+  color: #595959;
+  border: 1px solid #D8D8D8;
+}
+.otaku-button-default-ghost:hover {
+  color: #ff6c93;
+  border-color: #ff6c93;
+}
+.otaku-button-default-ghost:active {
+  color: #e6406c;
+  border-color: #e6406c;
+}
+.otaku-button-default-ghost:disabled {
+  color: #d8d8d8;
+  border-color: #e5e5e5;
+  background-color: white;
+}
+
+.otaku-button-primary {
+  background: #FF4778;
+  border: 1px solid #FF4778;
+  color: white;
+}
+.otaku-button-primary:hover {
+  background: #ff6c93;
+  border-color: #ff6c93;
+}
+.otaku-button-primary:active {
+  color: white;
+  background: #e6406c;
+  border-color: #e6406c;
+}
+.otaku-button-primary:disabled {
+  background: #ff9fb9;
+  border-color: #ff9fb9;
+}
+
+.otaku-button-primary-ghost {
+  border: 1px solid #FF4778;
+  background: white;
+  color: #FF4778;
+}
+.otaku-button-primary-ghost:hover {
+  color: #ff6c93;
+  border-color: #ff6c93;
+  background: white;
+}
+.otaku-button-primary-ghost:active {
+  color: #e6406c;
+  background: white;
+  border-color: #e6406c;
+}
+.otaku-button-primary-ghost:disabled {
+  background: white;
+  color: #ff9fb9;
+  border-color: #ff9fb9;
+}
+
+.otaku-button-success {
+  background: #08dba8;
+  border: 1px solid #08dba8;
+  color: white;
+}
+.otaku-button-success:hover {
+  background: #39e2b9;
+  border-color: #39e2b9;
+}
+.otaku-button-success:active {
+  color: white;
+  background: #07c597;
+  border-color: #07c597;
+}
+.otaku-button-success:disabled {
+  background: #7fecd2;
+  border-color: #7fecd2;
+}
+
+.otaku-button-success-ghost {
+  border: 1px solid #08dba8;
+  background: white;
+  color: #08dba8;
+}
+.otaku-button-success-ghost:hover {
+  color: #39e2b9;
+  border-color: #39e2b9;
+  background: white;
+}
+.otaku-button-success-ghost:active {
+  color: #07c597;
+  background: white;
+  border-color: #07c597;
+}
+.otaku-button-success-ghost:disabled {
+  background: white;
+  color: #7fecd2;
+  border-color: #7fecd2;
+}
+
+.otaku-button-warning {
+  background: #ffb540;
+  border: 1px solid #ffb540;
+  color: white;
+}
+.otaku-button-warning:hover {
+  background: #ffc466;
+  border-color: #ffc466;
+}
+.otaku-button-warning:active {
+  color: white;
+  background: #e6a33a;
+  border-color: #e6a33a;
+}
+.otaku-button-warning:disabled {
+  background: #ffd99c;
+  border-color: #ffd99c;
+}
+
+.otaku-button-warning-ghost {
+  border: 1px solid #ffb540;
+  background: white;
+  color: #ffb540;
+}
+.otaku-button-warning-ghost:hover {
+  color: #ffc466;
+  border-color: #ffc466;
+  background: white;
+}
+.otaku-button-warning-ghost:active {
+  color: #e6a33a;
+  background: white;
+  border-color: #e6a33a;
+}
+.otaku-button-warning-ghost:disabled {
+  background: white;
+  color: #ffd99c;
+  border-color: #ffd99c;
+}
+
+.otaku-button-danger {
+  background: #f52f3e;
+  border: 1px solid #f52f3e;
+  color: white;
+}
+.otaku-button-danger:hover {
+  background: #f75965;
+  border-color: #f75965;
+}
+.otaku-button-danger:active {
+  color: white;
+  background: #dd2a38;
+  border-color: #dd2a38;
+}
+.otaku-button-danger:disabled {
+  background: #fa939b;
+  border-color: #fa939b;
+}
+
+.otaku-button-danger-ghost {
+  border: 1px solid #f52f3e;
+  background: white;
+  color: #f52f3e;
+}
+.otaku-button-danger-ghost:hover {
+  color: #f75965;
+  border-color: #f75965;
+  background: white;
+}
+.otaku-button-danger-ghost:active {
+  color: #dd2a38;
+  background: white;
+  border-color: #dd2a38;
+}
+.otaku-button-danger-ghost:disabled {
+  background: white;
+  color: #fa939b;
+  border-color: #fa939b;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/comment/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-comment {
+  display: flex;
+}
+.otaku-comment .otaku-comment-container {
+  flex: 1;
+  margin-left: 10px;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-time {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-content {
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-actions {
+  display: flex;
+  margin: 5px 0 10px;
+  cursor: pointer;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-actions .otaku-comment-actions-item {
+  margin-right: 10px;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-actions .otaku-comment-actions-item span {
+  margin-right: 5px;
+  color: #999;
+}
+.otaku-comment .otaku-comment-container .otaku-comment-actions .otaku-comment-actions-item .otaku-comment-like-active,
+.otaku-comment .otaku-comment-container .otaku-comment-actions .otaku-comment-actions-item .otaku-comment-unlike-active,
+.otaku-comment .otaku-comment-container .otaku-comment-actions .otaku-comment-actions-item .otaku-comment-reply-active {
+  color: #FF6B6B;
+}
+.otaku-comment .otaku-comment-reply {
+  color: #FF4778;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/rate/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+.otaku-rate .otaku-star-container {
+  display: flex;
+  align-items: center;
+}
+.otaku-rate .otaku-star {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #ffb800;
+}
+.otaku-rate .otaku-rate-score, .otaku-rate .otaku-rate-text {
+  margin-left: 5px;
+  color: black;
+}
+.otaku-rate .otaku-rate-score {
+  color: #ff9900;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/timeline/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+.otaku-timeline {
+  width: 100%;
+}
+.otaku-timeline .otaku-timeline-item {
+  width: 100%;
+  border-left: 2px solid #e4e7ed;
+  padding: 7px;
+}
+.otaku-timeline .otaku-timeline-item .otaku-timeline-separator {
+  width: 15px;
+  height: 15px;
+  background: #e4e7ed;
+  border-radius: 50%;
+  margin-left: -15px;
+  margin-top: -10px;
+}
+.otaku-timeline .otaku-timeline-item .otaku-timeline-container {
+  padding: 0 10px;
+}
+.otaku-timeline .otaku-timeline-item .otaku-timeline-title {
+  margin: -15px 0 6px;
+}
+.otaku-timeline .otaku-timeline-item .otaku-timeline-content {
+  padding: 5px 0;
+}
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/pagination/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-pagination {
+  display: flex;
+}
+.otaku-pagination .otaku-pagination-prev-more,
+.otaku-pagination .otaku-pagination-next-more,
+.otaku-pagination .otaku-pagination-prev,
+.otaku-pagination .otaku-pagination-next,
+.otaku-pagination .otaku-pagination-item {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: white;
+  color: #262626;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px 0 rgba(0, 35, 144, 0.1);
+  cursor: pointer;
+}
+.otaku-pagination .is-circle {
+  border-radius: 24px;
+}
+.otaku-pagination .otaku-pagination-item:hover {
+  color: #FF4778;
+}
+.otaku-pagination .otaku-pagination-prev-more,
+.otaku-pagination .otaku-pagination-next-more {
+  box-shadow: none;
+}
+.otaku-pagination .otaku-icon-doubleleft,
+.otaku-pagination .otaku-icon-doubleright {
+  display: none;
+}
+.otaku-pagination .otaku-pagination-prev .iconfont,
+.otaku-pagination .otaku-pagination-next .iconfont {
+  font-size: 13px;
+}
+.otaku-pagination .otaku-pagination-item-acitve {
+  color: #FF4778;
+}
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/picker/calendar/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-calendar-container {
+  cursor: pointer;
+}
+.otaku-calendar-container .otaku-calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: repeat(1, 40px);
+  grid-gap: 5px 10px;
+  color: #262626;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.otaku-calendar-container .otaku-calendar-week li {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.otaku-calendar-container .otaku-calendar-month {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: repeat(6, 40px);
+  grid-gap: 5px 10px;
+}
+.otaku-calendar-container .otaku-calendar-month li {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: var(--radius);
+  box-sizing: border-box;
+  color: #BFBFBF;
+  font-size: 12px;
+}
+.otaku-calendar-container .otaku-calendar-month .otaku-calendar-current {
+  color: #262626;
+}
+.otaku-calendar-container .otaku-calendar-month .otaku-calendar-active {
+  border: 1.5px solid #FF4778;
+  color: #FF4778;
+}
+.otaku-calendar-container .otaku-calendar-month .otaku-calendar-today {
+  background: #FF4778;
+  color: white;
+}
+.otaku-calendar-container .otaku-calendar-month .otaku-calendar-disabled {
+  background: #f2fcff;
+  color: #595959;
+  border: none;
+  cursor: not-allowed;
+}
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/picker/month/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-month {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 43px 92px;
+  padding-bottom: 10px;
+}
+.otaku-month .otaku-month-item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #595959;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.otaku-month .otaku-month-item-active {
+  background: #FF4778;
+  color: white;
+}
+.otaku-month .otaku-datepicker-currentMonth {
+  border: 1.5px solid #FF4778;
+  color: #FF4778;
+}
+.otaku-month .active {
+  background: #FF4778;
+  color: white;
+}
+.otaku-month .gray {
+  color: #BFBFBF;
+}
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/picker/year/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-datepicker-year {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 43px 95px;
+  padding-bottom: 10px;
+}
+.otaku-datepicker-year li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #595959;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.otaku-datepicker-year .otaku-datepicker-currentYear {
+  border: 1.5px solid #FF4778;
+  color: #FF4778;
+}
+.otaku-datepicker-year .active {
+  background: #FF4778;
+  color: white;
+}
+.otaku-datepicker-year .gray {
+  color: #BFBFBF;
+}
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/highlightCode/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************/
+.otaku-code-container {
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.otaku-code-container .otaku-code-lang {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #bfbfbf;
+}
+.otaku-code-container .otaku-code-line-container {
+  list-style: none;
+  padding: 0 10px;
+  border-right: 1px solid #e7e7e7;
+  text-align: center;
+}
+.otaku-code-container .otaku-code-line-container .otaku-code-line {
+  list-style: none;
+  line-height: 1.45;
+  font-size: 14px;
+  color: #333333;
+}
+.otaku-code-container pre {
+  background: white;
+  margin: 0;
+}
+.otaku-code-container code {
+  font-size: 14px;
+  font-family: Consolas, Monaco, monospace;
+  line-height: 22px;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/grid/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+.otaku-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+.otaku-grid .otaku-grid-item {
+  list-style: none;
+}
+
+.otaku-grid-center {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/inputNumber/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-input-number-box {
+  border: 1px solid #E5E5E5;
+  border-radius: var(--radius);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 88px 32px;
+  grid-template-rows: 32px;
+  width: fit-content;
+}
+.otaku-input-number-box:hover {
+  border-color: #FF4778;
+}
+.otaku-input-number-box .otaku-input-number {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  appearance: none;
+}
+.otaku-input-number-box .otaku-input-number::-webkit-outer-spin-button, .otaku-input-number-box .otaku-input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.otaku-input-number-box .otaku-input-number:disabled {
+  cursor: not-allowed;
+}
+.otaku-input-number-box .otaku-input-number-direction {
+  background: white;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  border-left: 1px solid #E5E5E5;
+}
+.otaku-input-number-box .otaku-input-number-direction li {
+  height: 16px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otaku-input-number-box .otaku-input-number-direction li:nth-of-type(1) {
+  border-bottom: 1px solid #E5E5E5;
+}
+.otaku-input-number-box .otaku-input-number-direction li .otaku-icon-up,
+.otaku-input-number-box .otaku-input-number-direction li .otaku-icon-down {
+  font-size: 12px;
+  color: #262626;
+}
+.otaku-input-number-box .otaku-input-number-direction li .input-number-icon-disabled {
+  color: #979797;
+  cursor: not-allowed;
+}
+
+.otaku-input-number-disabled {
+  cursor: not-allowed;
+  border-color: #E5E5E5;
+}
+.otaku-input-number-disabled:hover {
+  border-color: #e5e5e5;
+}
+
+.otaku-input-number-size-small {
+  grid-template-rows: 24px;
+}
+.otaku-input-number-size-small .otaku-input-number-direction li {
+  height: 12px;
+}
+
+.otaku-input-number-size-middle {
+  grid-template-rows: 32px;
+}
+.otaku-input-number-size-middle .otaku-input-number-direction li {
+  height: 16px;
+}
+
+.otaku-input-number-size-large {
+  grid-template-rows: 40px;
+}
+.otaku-input-number-size-large .otaku-input-number-direction li {
+  height: 20px;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/switch/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-switch-container {
+  display: flex;
+}
+
+.otaku-switch-inner {
+  position: relative;
+  padding: 0 10px;
+}
+.otaku-switch-inner .otaku-switch-circle {
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  transform: translateX(1px);
+  transition: background-color 0.1s, transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+.otaku-switch-inner .otaku-switch-checked {
+  transform: translateX(25px);
+}
+.otaku-switch-inner .otaku-switch-disabled {
+  cursor: not-allowed;
+}
+.otaku-switch-inner .otaku-switch {
+  width: 50px;
+  height: 25px;
+  display: inline-block;
+  appearance: none;
+  background: #dcdfe6;
+  border-radius: 20px;
+  transition: background linear 0.2s;
+}
+.otaku-switch-inner .otaku-switch:checked {
+  background: #FF4778;
+}
+.otaku-switch-inner .otaku-switch:disabled {
+  cursor: not-allowed;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/icon/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/input/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-input-container {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  border: 1px solid #e8e8e8;
+  border-radius: var(--radius);
+  padding: 8px;
+  box-sizing: border-box;
+}
+.otaku-input-container:hover {
+  border-color: #FF4778;
+}
+.otaku-input-container .otaku-input {
+  width: 100%;
+  font-size: 13px;
+  outline: none;
+  border: none;
+}
+.otaku-input-container .otaku-input-icon-left {
+  padding-right: 10px;
+}
+.otaku-input-container .otaku-input-icon-right {
+  padding-left: 10px;
+}
+.otaku-input-container .otaku-input:disabled {
+  cursor: not-allowed;
+  background: var(--disabled-color);
+}
+.otaku-input-container .iconfont {
+  font-size: 13px;
+  color: #999;
+}
+
+.otaku-input-before :first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.otaku-input-before ~ .otaku-input-container {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: -1px;
+}
+
+.otaku-input-after-border {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-left: -1px;
+}
+
+.otaku-input-after :first-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.otaku-input-disabled {
+  cursor: not-allowed;
+  background: var(--disabled-color);
+  border: 1px solid var(--disabled-border-color);
+}
+.otaku-input-disabled:hover {
+  border: 1px solid var(--disabled-border-color);
+}
+
+.otaku-input-box {
+  display: inline-flex;
+}
+
+.otaku-input-size-small {
+  height: 24px;
+}
+.otaku-input-size-small .otaku-input {
+  font-size: 12px;
+}
+
+.otaku-input-size-middle {
+  height: 32px;
+}
+.otaku-input-size-middle .otaku-input {
+  font-size: 13px;
+}
+
+.otaku-input-size-large {
+  height: 40px;
+}
+.otaku-input-size-large .otaku-input {
+  font-size: 16px;
+}
+
+.otaku-textarea-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  border-radius: var(--radius);
+}
+.otaku-textarea-container:hover {
+  border-color: #FF4778;
+}
+.otaku-textarea-container .otaku-input-textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 8px;
+}
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/space/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+.otaku-space {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/radio/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-radio-container {
+  display: flex;
+  font-size: 14px;
+}
+.otaku-radio-container .otaku-radio-label {
+  display: flex;
+  align-items: center;
+}
+.otaku-radio-container .otaku-radio-label .otaku-radio {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #FF4778;
+  border-radius: 50%;
+  appearance: none;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otaku-radio-container .otaku-radio-label .otaku-radio:checked::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #FF4778;
+  border-radius: 50%;
+}
+.otaku-radio-container .otaku-radio-label .otaku-radio:disabled {
+  background: #f7f7f7;
+  border-color: #e5e5e5;
+}
+.otaku-radio-container .otaku-radio-label .otaku-radio:disabled::before {
+  display: inline-block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #c2c2c2;
+  border-radius: 50%;
+}
+.otaku-radio-container .otaku-radio-label span {
+  color: #595959;
+  margin-left: 8px;
+}
+.otaku-radio-container .otaku-radio-label .otaku-radio-disabled {
+  color: #e5e5e5;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/checkbox/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  color: #595959;
+  font-size: 14px;
+}
+.otaku-checkbox-label .otaku-checkbox {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 1px solid #E5E5E5;
+  appearance: none;
+  color: #E5E5E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+.otaku-checkbox-label .otaku-checkbox:hover {
+  border-color: #FF4778;
+}
+.otaku-checkbox-label .otaku-checkbox:disabled {
+  cursor: not-allowed;
+  background-color: #F7F7F7;
+  border-color: #E5E5E5;
+  color: #BFBFBF;
+}
+.otaku-checkbox-label .otaku-checkbox-label {
+  margin-left: 5px;
+}
+.otaku-checkbox-label .is-half {
+  color: #FF4778;
+}
+.otaku-checkbox-label .is-checked {
+  color: #FF4778;
+}
+.otaku-checkbox-label .otaku-checkbox-disabled {
+  color: #BFBFBF;
+  cursor: not-allowed;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/form/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+.otaku-form .otaku-form-item {
+  display: grid;
+  align-items: baseline;
+  grid-gap: 10px;
+}
+.otaku-form .otaku-form-item-label {
+  font-size: 14px;
+}
+.otaku-form .otaku-form-item-error-message {
+  display: inline-block;
+  color: red;
+  height: 24px;
+  font-size: 12px;
+}
+.otaku-form .otaku-form-item .is-required {
+  color: red;
+  margin: 2px;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/progress/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-progress-box {
+  display: flex;
+  align-items: center;
+}
+.otaku-progress-box .otaku-progress-text {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.otaku-progress-container {
+  min-width: 220px;
+  height: 8px;
+  background: rgba(44, 104, 255, 0.06);
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  text-align: right;
+  box-sizing: border-box;
+}
+.otaku-progress-container .otaku-progress {
+  height: 100%;
+  transition: width 0.2s linear;
+  background: #FF4778;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.otaku-progress-vertical {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 8px;
+  height: 220px;
+  background: rgba(44, 104, 255, 0.06);
+  overflow: hidden;
+  border-radius: 16px;
+  color: white;
+  text-align: right;
+  box-sizing: border-box;
+}
+.otaku-progress-vertical .otaku-progress {
+  width: 100%;
+  height: 0%;
+  transition: height 0.2s linear;
+  background: #FF4778;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1;
+  writing-mode: vertical-rl;
+  text-align: start;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/upload/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-upload-container input[type=file] {
+  display: none;
+}
+.otaku-upload-container .otaku-upload {
+  width: 150px;
+  height: 150px;
+  border: 1px dashed #d9d9d9;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otaku-upload-container .otaku-upload .add {
+  font-size: 24px;
+}
+.otaku-upload-container .otaku-drag-upload {
+  width: 500px;
+  height: 150px;
+  border: 1px dashed #d9d9d9;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.otaku-upload-container .otaku-drag-upload-hover {
+  border: 1px dashed #FF4778;
+}
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/datePicker/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-datetime-picker-container {
+  display: inline-block;
+}
+
+.otaku-datetime-picker {
+  width: 380px;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius);
+  padding: 20px 20px 0 20px;
+  margin-top: 2px;
+}
+.otaku-datetime-picker .otaku-datetime-picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.otaku-datetime-picker .otaku-datetime-picker-header span {
+  margin-right: 5px;
+}
+.otaku-datetime-picker .otaku-datetime-picker-header li:nth-of-type(2) span:hover {
+  color: #FF4778;
+}
+.otaku-datetime-picker .today {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  color: #FF4778;
+  cursor: pointer;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/search/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+.otaku-search-button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.otaku-search-popup {
+  width: 220px;
+  border: 2px solid red;
+  position: absolute;
+  top: 50px;
+}
+.otaku-search-popup .otaku-search-list {
+  background: white;
+}
+.otaku-search-popup .otaku-search-item {
+  padding: 10px;
+  border-bottom: 1px solid red;
+}
+
+.otaku-search-button-small {
+  height: 32px;
+}
+
+.otaku-search-button-middle {
+  height: 36px;
+}
+
+.otaku-search-button-large {
+  height: 40px;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/popover/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-popover-container {
+  z-index: 2000;
+  cursor: pointer;
+}
+.otaku-popover-container .otaku-popover-tooltip {
+  background: white;
+  padding: 10px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 20px 0 rgba(0, 35, 144, 0.1);
+}
+
+.otaku-popover-arrow,
+.otaku-popover-arrow::before {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+}
+
+.otaku-popover-arrow {
+  visibility: hidden;
+}
+
+.otaku-popover-arrow::before {
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.otaku-popover-tooltip[data-popper-placement^=top] > .otaku-popover-arrow {
+  bottom: -6px;
+}
+
+.otaku-popover-tooltip[data-popper-placement^=bottom] > .otaku-popover-arrow {
+  top: -6px;
+}
+
+.otaku-popover-tooltip[data-popper-placement^=left] > .otaku-popover-arrow {
+  right: -6px;
+}
+
+.otaku-popover-tooltip[data-popper-placement^=right] > .otaku-popover-arrow {
+  left: -6px;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/select/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-select-container {
+  width: 240px;
+}
+
+.otaku-select {
+  width: 240px;
+  height: 208px;
+  box-shadow: var(--shadow);
+  background: white;
+  border-radius: var(--radius);
+  margin-top: 4px;
+  overflow: auto;
+  margin-top: 5px;
+}
+
+.rotate {
+  transition: 0.2s transform cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: rotate(180deg);
+}
+
+.otaku-select::-webkit-scrollbar {
+  width: 5px;
+}
+
+.otaku-select::-webkit-scrollbar-thumb {
+  background-color: #c8c8c8;
+  opacity: 0.25;
+  border-radius: 6px;
+}
+
+.otaku-select-option {
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.otaku-select-option:hover {
+  color: #FF4778;
+  background: rgba(44, 104, 255, 0.06);
+}
+.otaku-select-option-active {
+  color: #FF4778;
+}
+.otaku-select-option-multiple-active {
+  color: #FF4778;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/dialog/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-dialog-mask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+.otaku-dialog-mask .otaku-dialog {
+  background: white;
+  border-radius: var(--radius);
+}
+.otaku-dialog-mask .otaku-dialog-header {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.otaku-dialog-mask .otaku-dialog-content {
+  padding: 15px;
+}
+.otaku-dialog-mask .otaku-dialog-footer {
+  padding: 15px;
+  border-top: 1px solid #e5e5e5;
+}
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/cropper/cropper.scss ***!
+  \****************************************************************************************************************************************************************************************************************************/
+.otaku-cropper-dialog {
+  display: grid;
+  width: auto;
+}
+.otaku-cropper-dialog .otaku-dialog-content {
+  display: grid;
+  grid-template-columns: 700px 300px;
+  gap: 20px;
+  padding: 20px 20px 0px;
+}
+.otaku-cropper-dialog .otaku-dialog-content .otaku-image-cropper {
+  width: 700px;
+  max-height: 500px;
+}
+.otaku-cropper-dialog .otaku-image-cropper-preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.otaku-cropper-dialog .is-circle {
+  border-radius: 50%;
+}
+.otaku-cropper-dialog .otaku-image-cropper-preview {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.otaku-cropper-dialog .otaku-cropper-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/message/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-message {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 10px;
+  cursor: pointer;
+}
+.otaku-message .otaku-message-icon {
+  margin-right: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.otaku-message .otaku-icon-info {
+  color: #0f73f7;
+}
+.otaku-message .otaku-icon-success {
+  color: #2DA641;
+}
+.otaku-message .otaku-icon-warning {
+  color: #ffb540;
+}
+.otaku-message .otaku-icon-error {
+  color: #f51010;
+}
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/alert/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-alert-info {
+  background: #EDF4FF;
+  border: 1px solid #94B4EB;
+}
+
+.otaku-alert-success {
+  background: #F0FAF2;
+  border: 1px solid #9FD6A8;
+}
+
+.otaku-alert-warning {
+  background: #FFF5ED;
+  border: 1px solid #F1924E;
+}
+
+.otaku-alert-error {
+  background: #FFEBEB;
+  border: 1px solid #F52F3E;
+}
+
+.otaku-alert {
+  border-radius: var(--radius);
+  padding: 10px;
+  cursor: pointer;
+}
+.otaku-alert .otaku-alert-icon {
+  margin-right: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.otaku-alert .otaku-alert-content {
+  color: #262626;
+  font-size: 14px;
+}
+.otaku-alert .otaku-icon-info {
+  color: #0f73f7;
+}
+.otaku-alert .otaku-icon-success {
+  color: #2DA641;
+}
+.otaku-alert .otaku-icon-warning {
+  color: #ffb540;
+}
+.otaku-alert .otaku-icon-error {
+  color: #f51010;
+}
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/breadCrumbs/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************/
+.otaku-bread-crumbs {
+  display: flex;
+}
+.otaku-bread-crumbs .otaku-bread-crumbs-item {
+  color: #262626;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  gap: 0 5px;
+  padding-left: 5px;
+}
+.otaku-bread-crumbs .otaku-bread-crumbs-item:nth-last-of-type(1) .otaku-bread-crumbs-separator {
+  display: none;
+}
+.otaku-bread-crumbs .otaku-bread-crumbs-item .otaku-icon-right {
+  font-size: 12px;
+  font-weight: bold;
+}
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/table/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+.otaku-table {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-collapse: collapse;
+}
+.otaku-table th, .otaku-table tr {
+  text-align: left;
+}
+.otaku-table th {
+  display: table-row;
+  width: 100%;
+  background: #fafafa;
+}
+.otaku-table .otaku-table-multiple {
+  width: 20px;
+}
+.otaku-table td {
+  border: 1px solid #e0e0e0;
+  background: white;
+  padding: 6px 12px;
+}
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/tab/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-tab {
+  display: flex;
+  position: relative;
+}
+.otaku-tab .otaku-tab-pane {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.otaku-tab .otaku-tab-pane-active {
+  border-bottom: 2px solid #FF4778;
+}
+
+.otaku-tab-active::after {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  position: absolute;
+  bottom: 0px;
+  z-index: 100;
+}
+
+.otaku-tab-content {
+  margin-top: 16px;
+}
+
+.otaku-tab-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/anchor/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+:root {
+  --radius: 4px;
+  --shadow: 0 2px 8px 0 rgba(0, 35, 144, 10%);
+  --disabled-color: #f7f7f7;
+  --disabled-border-color: #e5e5e5;
+}
+
+.otaku-anchor {
+  background: white;
+}
+.otaku-anchor-item {
+  font-size: 13px;
+  color: #595959;
+  line-height: 28px;
+  cursor: pointer;
+}
+.otaku-anchor-item-active {
+  color: #FF4778;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/link/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/drawer/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+.otaku-drawer-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.otaku-drawer-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.otaku-drawer-container .otaku-drawer-content {
+  background: white;
+  overflow: auto;
+}
+.otaku-drawer-container .otaku-drawer-direction-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.otaku-drawer-container .otaku-drawer-direction-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.otaku-drawer-container .otaku-drawer-direction-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.otaku-drawer-container .transition {
+  transition: transform linear 0.5s;
+  transform: translateY(0);
+}
+.otaku-drawer-container .otaku-drawer-direction-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/time/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/image/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************/
+.otaku-image-container {
+  width: 100%;
+  height: 100%;
+}
+.otaku-image-container .otaku-image {
+  width: 100%;
+  height: 100%;
+}
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/tree/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************/
+.otaku-tree {
+  box-sizing: border-box;
+}
+.otaku-tree-node {
+  height: 35px;
+  padding: 3px 0;
+  font-size: 14px;
+}
+.otaku-tree-arrow {
+  color: #c8c8c8;
+  font-size: 14px;
+  transition: transform 0.1s;
+}
+.otaku-tree-arrow-rotate {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.otaku-tree-loading {
+  display: inline-block;
+  color: #c8c8c8;
+  font-size: 12px;
+  animation: rotate 0.8s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/imagePreview/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+.otaku-image-preview-toolbar {
+  opacity: 0.75;
+}
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!../otaku-ui/src/lib/uploadImage/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************/
+.otaku-upload-image-preview-container {
+  width: 150px;
+  height: 150px;
+  border: 1.5px dashed #e8e8e8;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otaku-upload-image-preview-container .otaku-upload-image-preview-mask {
+  width: 90%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: white;
+  display: none;
+}
+.otaku-upload-image-preview-container .otaku-upload-image-preview {
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  display: inline-block;
+}
+
+.otaku-upload-image-preview-container:hover .otaku-upload-image-preview-mask {
+  display: flex;
+}
+
+/*# sourceMappingURL=otaku-ui_src_index_ts-otaku-ui_src_lib_comment_comment_tsx_a86ba469057ffa4ca43c.css.map*/
