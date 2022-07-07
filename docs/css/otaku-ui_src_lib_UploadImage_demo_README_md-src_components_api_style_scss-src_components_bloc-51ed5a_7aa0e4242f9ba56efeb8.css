@@ -1,0 +1,70 @@
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/components/block/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************/
+.otaku-block-container {
+  background: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/components/api/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************/
+.otaku-api-container {
+  background: white;
+  padding: 10px;
+}
+.otaku-api-container .otaku-code-container {
+  border-top: none;
+  padding-top: 0;
+}
+.otaku-api-container .otaku-table-row td:nth-of-type(3) div {
+  color: #a31515;
+  font-family: Consolas, Monaco, monospace;
+}
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/components/editor/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
+.editor {
+  height: 300px;
+}
+
+.editor-container .editor-demo {
+  padding: 20px;
+  border: 2px solid black;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!../../node_modules/postcss-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/components/codeExample/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+.otaku-code-example-container {
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+}
+.otaku-code-example-container .otaku-desc, .otaku-code-example-container .otaku-example {
+  padding: 20px;
+  border-bottom: 1.5px dashed rgba(0, 0, 0, 0.1);
+}
+.otaku-code-example-container .otaku-operation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.otaku-code-example-container .otaku-operation li {
+  list-style: none;
+  margin-right: 20px;
+}
+.otaku-code-example-container .otaku-operation li span {
+  font-size: 20px;
+}
+.otaku-code-example-container .otaku-code-container {
+  border-top: 1.5px dashed rgba(0, 0, 0, 0.1);
+}
+.otaku-code-example-container .otaku-edit-container {
+  padding: 15px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=otaku-ui_src_lib_UploadImage_demo_README_md-src_components_api_style_scss-src_components_bloc-51ed5a_7aa0e4242f9ba56efeb8.css.map*/
