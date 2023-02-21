@@ -1,1 +1,0 @@
-import{g as a}from"./index.a667917b.js";import{j as r}from"./index.50043c3d.js";const c=()=>r("section",{className:"color",children:["#060606","#1F4BFF","#f5222d","orange","green","purple"].map(o=>r("ul",{className:"colors",children:a(o).map((e,l)=>r("li",{style:{backgroundColor:e},children:e},l))}))});export{c as default};

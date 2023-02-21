@@ -1,0 +1,1 @@
+import{_ as t,a as s}from"./_toKey.b5fb8a0d.js";var u=t,i=s;function l(e,n){n=u(n,e);for(var a=0,r=n.length;e!=null&&a<r;)e=e[i(n[a++])];return a&&a==r?e:void 0}var d=l,f=d;function v(e,n,a){var r=e==null?void 0:f(e,n);return r===void 0?a:r}var g=v;export{d as _,g};
