@@ -1,0 +1,1 @@
+import{s as i}from"./style.d309e604.js";var a=i;function n(e,r,s){r=="__proto__"&&a?a(e,r,{configurable:!0,enumerable:!0,value:s,writable:!0}):e[r]=s}var u=n,t=9007199254740991,o=/^(?:0|[1-9]\d*)$/;function _(e,r){var s=typeof e;return r=r==null?t:r,!!r&&(s=="number"||s!="symbol"&&o.test(e))&&e>-1&&e%1==0&&e<r}var p=_;export{p as _,u as a};
